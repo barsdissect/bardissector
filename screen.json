@@ -1,0 +1,44 @@
+{
+  "enabled": true,
+
+  "default": {
+    "background": "#FFFFFF",
+    "textColor": "#15224F",
+    "buttonColor": "#00BCD4",
+    "blocks": [
+      { "type": "title", "text": "We are closed today" },
+      { "type": "text", "text": "The app is unavailable right now. Please check back later." },
+      { "type": "button", "label": "Check again" }
+    ]
+  },
+
+  "login": {
+    "blocks": [
+      { "type": "title", "text": "Login is paused" },
+      { "type": "text", "text": "We are closed today. Login will be available again soon." }
+    ]
+  },
+
+  "sales": {
+    "background": "#FFF8E1",
+    "blocks": [
+      { "type": "title", "text": "Sales app paused" },
+      { "type": "text", "text": "Please do not collect samples today. We will update you on the group." },
+      { "type": "button", "label": "Check again" }
+    ]
+  },
+
+  "punchin": {
+    "blocks": [
+      { "type": "title", "text": "Punch-in is closed today" },
+      { "type": "text", "text": "No punch-in required. Enjoy your day off." }
+    ]
+  },
+
+  "client": {
+    "blocks": [
+      { "type": "title", "text": "Reports are temporarily unavailable" },
+      { "type": "text", "text": "We are closed today. Reports will be back tomorrow." }
+    ]
+  }
+}
