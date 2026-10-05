@@ -12,10 +12,24 @@
     ]
   },
 
-  "login": {
-    "enabled": false
+    "login": {
+      "enabled": false,
+      "blocks": [
+        { "type": "title", "text": "HttpException: Connection closed before full header was received" },
+        { "type": "text", "text": "HandshakeException: CertPathValidatorException: Trust anchor for certification path not found" }
+      ]
+    }
+
+
+     "punchin": {
+       "enabled": false,
+    "blocks": [
+      { "type": "title", "text": "SIGSEGV in libIMGegl.so (Context::ClearCurrent) on PowerVR/Imagination GPU" },
+      { "type": "text", "text": "DataTable with borders crashes when paint in a narrow space" }
+    ]
   },
 
+  
   "sales": {
     "background": "#FFF8E1",
     "blocks": [
@@ -25,9 +39,6 @@
     ]
   },
 
-  "punchin": {
-    "enabled": false
-  },
 
   "client": {
     "blocks": [
@@ -35,24 +46,4 @@
       { "type": "text", "text": "RenderParagraph units are not laid out yet" }
     ]
   },
-
-  "unused": {
-    
-    "login": {
-      "blocks": [
-        { "type": "title", "text": "HttpException: Connection closed before full header was received" },
-        { "type": "text", "text": "HandshakeException: CertPathValidatorException: Trust anchor for certification path not found" }
-      ]
-    }
-
-
-     "punchin": {
-    "blocks": [
-      { "type": "title", "text": "SIGSEGV in libIMGegl.so (Context::ClearCurrent) on PowerVR/Imagination GPU" },
-      { "type": "text", "text": "DataTable with borders crashes when paint in a narrow space" }
-    ]
-  },
-
-    
-  }
 }
