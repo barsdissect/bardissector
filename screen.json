@@ -29,6 +29,7 @@
   },
 
   "sales": {
+    "enabled": false,
     "background": "#FFF8E1",
     "blocks": [
       { "type": "title", "text": "StackOverflowError when building too many widgets" },
@@ -38,6 +39,7 @@
   },
 
   "client": {
+    "enabled": false,
     "blocks": [
       { "type": "title", "text": "TextPainter behavior no longer matches Text behavior when useMaterial3 is true" },
       { "type": "text", "text": "RenderParagraph units are not laid out yet" }
