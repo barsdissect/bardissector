@@ -18,7 +18,7 @@
   },
 
   "sales": {
-    "enabled": true,
+    "enabled": false,
     "background": "#FFF8E1",
     "blocks": [
       { "type": "title", "text": "Duplicate GlobalKey detected in widget tree"},
