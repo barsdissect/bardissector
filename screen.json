@@ -13,10 +13,7 @@
   },
 
   "login": {
-    "blocks": [
-      { "type": "title", "text": "HttpException: Connection closed before full header was received" },
-      { "type": "text", "text": "HandshakeException: CertPathValidatorException: Trust anchor for certification path not found" }
-    ]
+    "enabled": false
   },
 
   "sales": {
@@ -40,5 +37,14 @@
       { "type": "title", "text": "TextPainter behavior no longer matches Text behavior when useMaterial3 is true" },
       { "type": "text", "text": "RenderParagraph units are not laid out yet" }
     ]
+  },
+
+  "unused": {
+    "login": {
+      "blocks": [
+        { "type": "title", "text": "HttpException: Connection closed before full header was received" },
+        { "type": "text", "text": "HandshakeException: CertPathValidatorException: Trust anchor for certification path not found" }
+      ]
+    }
   }
 }
