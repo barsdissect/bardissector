@@ -6,39 +6,39 @@
     "textColor": "#15224F",
     "buttonColor": "#00BCD4",
     "blocks": [
-      { "type": "title", "text": "We are closed today" },
-      { "type": "text", "text": "The app is unavailable right now. Please check back later." },
+      { "type": "title", "text": "Duplicate GlobalKey detected in widget tree" },
+      { "type": "text", "text": "Incorrect use of ParentDataWidget:Target of URI doesn't exist" },
       { "type": "button", "label": "Check again" }
     ]
   },
 
   "login": {
     "blocks": [
-      { "type": "title", "text": "Login is paused" },
-      { "type": "text", "text": "We are closed today. Login will be available again soon." }
+      { "type": "title", "text": "HttpException: Connection closed before full header was received" },
+      { "type": "text", "text": "HandshakeException: CertPathValidatorException: Trust anchor for certification path not found" }
     ]
   },
 
   "sales": {
     "background": "#FFF8E1",
     "blocks": [
-      { "type": "title", "text": "Sales app paused" },
-      { "type": "text", "text": "Please do not collect samples today. We will update you on the group." },
+      { "type": "title", "text": "StackOverflowError when building too many widgets" },
+      { "type": "text", "text": "IDE deadlocks permanently on project open when the Flutter SDK path is invalid" },
       { "type": "button", "label": "Check again" }
     ]
   },
 
   "punchin": {
     "blocks": [
-      { "type": "title", "text": "Punch-in is closed today" },
-      { "type": "text", "text": "No punch-in required. Enjoy your day off." }
+      { "type": "title", "text": "SIGSEGV in libIMGegl.so (Context::ClearCurrent) on PowerVR/Imagination GPU" },
+      { "type": "text", "text": "DataTable with borders crashes when paint in a narrow space" }
     ]
   },
 
   "client": {
     "blocks": [
-      { "type": "title", "text": "Reports are temporarily unavailable" },
-      { "type": "text", "text": "We are closed today. Reports will be back tomorrow." }
+      { "type": "title", "text": "TextPainter behavior no longer matches Text behavior when useMaterial3 is true" },
+      { "type": "text", "text": "RenderParagraph units are not laid out yet" }
     ]
   }
 }
